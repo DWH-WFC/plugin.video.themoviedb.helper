@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="plugin.video.themoviedb.helper" version="10.0.0" name="TheMovieDb Helper" provider-name="jurialmunkey">
+<addon id="plugin.video.themoviedb.helper" version="2021.05.14" name="TheMovieDb Helper" provider-name="DWH">
 <requires>
   <import addon="xbmc.python" version="2.26.0"/>
   <import addon="script.module.requests" version="2.9.1"/>
@@ -43,13 +43,10 @@
   </menu>
 </extension>
 <extension point="xbmc.addon.metadata">
-  <summary lang="en_GB">TheMovieDb Helper - Now With Trakt Support!</summary>
-  <summary lang="es_ES">TheMovieDb Helper - ¡Ahora con soporte para Trakt!</summary>
-  <description lang="en_GB">TheMovieDb Helper provides details about movies, tvshows and actors from TMDb. Users can access a variety of lists from TMDb and Trakt.</description>
+  <summary lang="de_DE">TheMovieDb Helper</summary>
   <description lang="de_DE">TheMovieDb Helper bietet Details zu Filmen, TV-Serien und Schauspielern von TMDb. Benutzer können über TMDb und Trakt auf eine Vielzahl von Listen zugreifen.</description>
-  <description lang="es_ES">TheMovieDb Helper proporciona detalles sobre películas, programas de televisión y actores de TMDb. Los usuarios pueden acceder a una variedad de listas desde TMDb y Trakt.</description>
-  <disclaimer lang="en_GB">Provided by TheMovieDb and Trakt.</disclaimer>
-  <disclaimer lang="es_ES">Proporcionado por TheMovieDb y Trakt</disclaimer>
+  <disclaimer lang="de_DE">Zur Verfügung gestellt von TheMovieDb und Trakt.</disclaimer>
+  <source>Source Code from jurialmunkey</source>
   <license>GPL-3.0-or-later</license>
   <website>https://github.com/jurialmunkey/plugin.video.themoviedb.helper</website>
   <forum>https://forum.kodi.tv/showthread.php?tid=345847</forum>

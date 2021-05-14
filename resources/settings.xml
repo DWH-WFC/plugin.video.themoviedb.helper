@@ -37,7 +37,7 @@
         <setting type="text" id="monitor_userslug" visible="false"/>
         <setting label="$ADDON[plugin.video.themoviedb.helper 32154]" subsetting="true" type="action" action="RunScript(plugin.video.themoviedb.helper,library_autoupdate,busy_dialog,force)" id="last_autoupdate" enable="eq(-4,True)"/>
         <setting label="$LOCALIZE[10039]" type="lsep"/>
-        <setting label="$ADDON[plugin.video.themoviedb.helper 32077]" type="bool" id="ignore_folderchecking" default="false" />
+        <setting label="$ADDON[plugin.video.themoviedb.helper 32077]" type="bool" id="ignore_folderchecking" default="true" />
         <setting type="bool" id="legacy_conversion" visible="false" default="false"/>
     </category>
     <category label="$ADDON[plugin.video.themoviedb.helper 32017]">
