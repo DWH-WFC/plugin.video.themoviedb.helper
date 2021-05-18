@@ -505,27 +505,9 @@ def _get_basedir_main():
             'path': PLUGINPATH,
             'art': {'thumb': u'{}/resources/icons/tmdb/cast.png'.format(ADDONPATH)}},
         {
-            'label': xbmc.getLocalizedString(137),
-            'types': [None],
-            'params': {'info': 'dir_multisearch'},
-            'path': PLUGINPATH,
-            'art': {'thumb': u'{}/resources/icons/tmdb/search.png'.format(ADDONPATH)}},
-        {
-            'label': ADDON.getLocalizedString(32174),
-            'types': [None],
-            'params': {'info': 'dir_discover'},
-            'path': PLUGINPATH,
-            'art': {'thumb': u'{}/resources/poster.png'.format(ADDONPATH)}},
-        {
             'label': ADDON.getLocalizedString(32173),
             'types': [None],
             'params': {'info': 'dir_random'},
-            'path': PLUGINPATH,
-            'art': {'thumb': u'{}/resources/poster.png'.format(ADDONPATH)}},
-        {
-            'label': u'TheMovieDb',
-            'types': [None],
-            'params': {'info': 'dir_tmdb'},
             'path': PLUGINPATH,
             'art': {'thumb': u'{}/resources/poster.png'.format(ADDONPATH)}},
         {
